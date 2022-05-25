@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "synthetic-control"
+version = "0.1.0"
+description = ""
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.10"
+numpy = "^1.22.3"
+pandas = "^1.4.2"
+pydantic = "^1.9.0"
+PyYAML = "^6.0"
+torch = "^1.11.0"
+scipy = "^1.8.0"
+loguru = "^0.6.0"
+jupyter = "^1.0.0"
+matplotlib = "^3.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
